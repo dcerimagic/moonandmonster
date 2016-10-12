@@ -360,8 +360,7 @@ html {
 body {
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  background: yellow; }
+  -webkit-font-smoothing: antialiased; }
 
 /* TYPO */
 @font-face {
