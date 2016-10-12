@@ -56,6 +56,7 @@ var navToggler = $('.nav-toggler');
 
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
+        keyboardControl: true,
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
