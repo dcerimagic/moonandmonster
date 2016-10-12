@@ -1,0 +1,341 @@
+# Translation of Monster in Albanian
+# This file is distributed under the same license as the Monster package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-12-10 18:37:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Monster\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/monster/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/monster/page-nosidebar.php
+msgid "Full Width, No Sidebar"
+msgstr "Gjerësi e Plotë, Pa Anështyllë"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/monster/style.css
+msgid "Boo! A spookyriffic monster theme with lots of tricks and treats."
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Kërkim &hellip;"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Kërko"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk qemë në gjendje të gjenim ç&#8217;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me kriterin tuaj të kërkimit. Ju lutemi, riprovoni me ndonjë fjalëkyç tjetër."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: inc/wpcom.php:21
+msgid "Theme Beast!"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: inc/tweaks.php:85
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#: inc/theme-options/theme-options.php:124
+msgid "Monster Eyes"
+msgstr "Sy Përbindëshi"
+
+#: inc/theme-options/theme-options.php:181
+msgid "%s Theme Options"
+msgstr "Mundësi Teme %s"
+
+#: inc/theme-options/theme-options.php:90
+#: inc/theme-options/theme-options.php:242
+msgid "Spider"
+msgstr "Merimangë"
+
+#: inc/theme-options/theme-options.php:94
+#: inc/theme-options/theme-options.php:243
+msgid "Jack-o-lantern"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:98
+#: inc/theme-options/theme-options.php:244
+msgid "Demon"
+msgstr "Demon"
+
+#: inc/theme-options/theme-options.php:102
+#: inc/theme-options/theme-options.php:245
+msgid "Skull"
+msgstr "Kafkë"
+
+#: inc/theme-options/theme-options.php:114
+msgid "Zombie"
+msgstr "Zombi"
+
+#: inc/theme-options/theme-options.php:82
+#: inc/theme-options/theme-options.php:240
+msgid "Frankie"
+msgstr "Frankie"
+
+#: inc/theme-options/theme-options.php:86
+#: inc/theme-options/theme-options.php:241
+msgid "Vampire"
+msgstr "Vampir"
+
+#: inc/theme-options/theme-options.php:37
+msgid "Monster Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:64
+#: inc/theme-options/theme-options.php:65
+#: inc/theme-options/theme-options.php:224
+msgid "Theme Options"
+msgstr "Mundësi Teme"
+
+#: inc/template-tags.php:133
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Postuar më <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> nga <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:139
+msgid "View all posts by %s"
+msgstr "Shihni tërë postimet nga %s"
+
+#: inc/template-tags.php:127
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Të zgjedhura</a>"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s te %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Komenti juaj po pret moderimin."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">thotë:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Postime më të reja <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postime më të vjetra"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Lëvizje te postimet"
+
+#: image.php:97
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Si komentet, ashtu edhe pasgjurmimet janë hëpërhë të mbyllura."
+
+#: image.php:95
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Pasgjurmimet janë mbyllur, por mund të <a class=\"comment-link\" href=\"#respond\" title=\"Postoni një koment\">postoni një koment</a>."
+
+#: image.php:93
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentet janë të mbyllura, por mund të lini një pasgjurmim: <a class=\"trackback-link\" href=\"%s\" title=\"URL pasgjurmimi për te postimi juaj\" rel=\"trackback\">URL Pasgjurmimi</a>."
+
+#: image.php:91
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Postoni një koment\">Postoni një koment</a> ose lini një pasgjurmim: <a class=\"trackback-link\" href=\"%s\" title=\"URL pasgjurmimi për te postimi juaj\" rel=\"trackback\">URL Pasgjurmimi</a>."
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Pasuesi &rarr;"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Botuar më <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Lidhje për te figura në madhësi të plotë\">%4$s &times; %5$s</a> te <a href=\"%6$s\" title=\"Kthehuni te %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "faqja I mëparshmi"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Hidhu te lënda"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:73
+msgid "Sidebar"
+msgstr "Anështyllë"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Menuja Parësore"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: footer.php:16
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Platformë Semantike Publikimesh Personale"
+
+#: content.php:30
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vazhdoni leximin <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:13
+msgid "1"
+msgstr "1"
+
+#: content.php:13
+msgid "%"
+msgstr "%"
+
+#: content.php:13
+msgid "0"
+msgstr "0"
+
+#: content-single.php:28 content-single.php:37 content.php:42 content.php:51
+msgid "%1$s"
+msgstr "%1$s"
+
+#: content-page.php:18 content-single.php:41 content.php:56 image.php:99
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Përpunoni"
+
+#: content-page.php:15 content-single.php:19 content.php:31 image.php:85
+msgid "Pages:"
+msgstr "Faqe:"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Komentet janë mbyllur."
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Komentet Më të Reja &rarr;"
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentet Më të Vjetra"
+
+#: comments.php:37 comments.php:57
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: comments.php:30
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:64 sidebar.php:18
+msgid "Archives"
+msgstr "Arkiva"
+
+#: archive.php:61
+msgid "Links"
+msgstr "Lidhje"
+
+#: archive.php:58
+msgid "Quotes"
+msgstr "Citime"
+
+#: archive.php:55
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:52
+msgid "Images"
+msgstr "Figura"
+
+#: archive.php:49
+msgid "Asides"
+msgstr "Anësore"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "Arkiva Vjetorë: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Arkiva Mujorë: %s"
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Arkiva Ditorë: %s"
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Arkiva Autori: %s"
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "Arkiva Etiketash: %s"
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Arkiva Kategorie: %s"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provoni të shihni arkivat mujorë. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Kategoritë Më të Përdorura"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm! Ajo faqe nuk gjendet dot."

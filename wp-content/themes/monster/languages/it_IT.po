@@ -1,0 +1,341 @@
+# Translation of Monster in Italian
+# This file is distributed under the same license as the Monster package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 16:42:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Monster\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/monster/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/monster/page-nosidebar.php
+msgid "Full Width, No Sidebar"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/monster/style.css
+msgid "Boo! A spookyriffic monster theme with lots of tricks and treats."
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Ricerca &hellip;"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Cerca"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Non riusciamo a trovare quello che cerchi. Forse eseguire una ricerca potrebbe essere di aiuto."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Spiacente, nulla corrisponde i termini della tua ricerca. Riprova con parole chiave diverse."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sei pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Comincia da qui</a>."
+
+#: inc/wpcom.php:21
+msgid "Theme Beast!"
+msgstr "Tema bestia!"
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: inc/tweaks.php:85
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/theme-options/theme-options.php:124
+msgid "Monster Eyes"
+msgstr "Occhi mostruosi"
+
+#: inc/theme-options/theme-options.php:181
+msgid "%s Theme Options"
+msgstr "Impostazioni tema %s"
+
+#: inc/theme-options/theme-options.php:90
+#: inc/theme-options/theme-options.php:242
+msgid "Spider"
+msgstr "Ragno"
+
+#: inc/theme-options/theme-options.php:94
+#: inc/theme-options/theme-options.php:243
+msgid "Jack-o-lantern"
+msgstr "Jack-o-lantern"
+
+#: inc/theme-options/theme-options.php:98
+#: inc/theme-options/theme-options.php:244
+msgid "Demon"
+msgstr "Demone"
+
+#: inc/theme-options/theme-options.php:102
+#: inc/theme-options/theme-options.php:245
+msgid "Skull"
+msgstr "Teschio"
+
+#: inc/theme-options/theme-options.php:114
+msgid "Zombie"
+msgstr "Zombie"
+
+#: inc/theme-options/theme-options.php:82
+#: inc/theme-options/theme-options.php:240
+msgid "Frankie"
+msgstr "Frankie"
+
+#: inc/theme-options/theme-options.php:86
+#: inc/theme-options/theme-options.php:241
+msgid "Vampire"
+msgstr "Vampiro"
+
+#: inc/theme-options/theme-options.php:37
+msgid "Monster Style"
+msgstr "Stile Monster"
+
+#: inc/theme-options/theme-options.php:64
+#: inc/theme-options/theme-options.php:65
+#: inc/theme-options/theme-options.php:224
+msgid "Theme Options"
+msgstr "Opzioni tema"
+
+#: inc/template-tags.php:133
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Pubblicato su <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> da <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:139
+msgid "View all posts by %s"
+msgstr "Vedi tutti gli articoli di %s"
+
+#: inc/template-tags.php:127
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">In evidenza</a>"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento deve ancora venire moderato."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">ha detto:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articoli più recenti <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articoli più vecchi"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Navigazione articolo"
+
+#: image.php:97
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Commenti e trackback sono attualmente chiusi."
+
+#: image.php:95
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "I trackback sono chiusi, ma puoi <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">postare un commento</a>."
+
+#: image.php:93
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "I commenti sono chiusi, ma puoi lasciare un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">URL del trackback</a>. "
+
+#: image.php:91
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Posta un commento\">Posta un commento</a> o usa questo <a class=\"trackback-link\" href=\"%s\" title=\"URL per il trackback a questo post\" rel=\"trackback\">indirizzo per il trackback</a>."
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Successivo &rarr;"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Pubblicato <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> su <a href=\"%3$s\" title=\"Link a immagine a dimensione originale\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Ritorna a %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Precedente"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:73
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s di %2$s."
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "Funziona grazie a %s"
+
+#: footer.php:16
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Una piattaforma semantica di editoria personale"
+
+#: content.php:30
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:13
+msgid "1"
+msgstr ""
+
+#: content.php:13
+msgid "%"
+msgstr "%"
+
+#: content.php:13
+msgid "0"
+msgstr "0"
+
+#: content-single.php:28 content-single.php:37 content.php:42 content.php:51
+msgid "%1$s"
+msgstr "%1$s"
+
+#: content-page.php:18 content-single.php:41 content.php:56 image.php:99
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Modifica"
+
+#: content-page.php:15 content-single.php:19 content.php:31 image.php:85
+msgid "Pages:"
+msgstr "Pagine: "
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Commenti più recenti &rarr;"
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti meno recenti"
+
+#: comments.php:37 comments.php:57
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:30
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:64 sidebar.php:18
+msgid "Archives"
+msgstr "Archivi"
+
+#: archive.php:61
+msgid "Links"
+msgstr "Link"
+
+#: archive.php:58
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: archive.php:55
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:52
+msgid "Images"
+msgstr "Immagini"
+
+#: archive.php:49
+msgid "Asides"
+msgstr "Incisi"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "Archivi annuali: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Archivio mensile:%s"
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Archivi giornalieri: %s"
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Archivio dell'autore: %s"
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "Archivi tag: %s"
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Archivi categoria: %s"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provare a consultare gli archivi mensili. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Categorie più utilizzate"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembra che non ci sia nulla a questo indirizzo. Perché non provi con uno dei link in basso o una ricerca?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Impossibile trovare la pagina."

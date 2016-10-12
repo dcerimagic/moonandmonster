@@ -1,0 +1,341 @@
+# Translation of Monster in Azerbaijani
+# This file is distributed under the same license as the Monster package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-05-15 17:42:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Monster\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/monster/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/monster/page-nosidebar.php
+msgid "Full Width, No Sidebar"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/monster/style.css
+msgid "Boo! A spookyriffic monster theme with lots of tricks and treats."
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Axtar &hellip;"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Axtar"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr " %s üçün Axtarışın Nəticələri:"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Axtardığınız səhifə tapılmadı. Bəlkə axtarış qutusu axtardığınızı tapmaqda sizə kömək edər."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bağışlayın, axtarış kriteriyalarınıza uyğun heç bir şey tapılmadı. Bəzi fərqli açar kəlmələrdən istifadə edərək təkrar yoxlayın."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk yazınızı dərc etməyə hazırsınızmı? <a href=\"%1$s\">Buradan başlayın</a>."
+
+#: inc/wpcom.php:21
+msgid "Theme Beast!"
+msgstr "Mövzu Əjdahası!"
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Tapılmadı"
+
+#: inc/tweaks.php:85
+msgid "Page %s"
+msgstr "Səhifə %s"
+
+#: inc/theme-options/theme-options.php:124
+msgid "Monster Eyes"
+msgstr "Canavar Gözləri"
+
+#: inc/theme-options/theme-options.php:181
+msgid "%s Theme Options"
+msgstr "%s Mövzu parametrləri"
+
+#: inc/theme-options/theme-options.php:90
+#: inc/theme-options/theme-options.php:242
+msgid "Spider"
+msgstr "Hörümçək"
+
+#: inc/theme-options/theme-options.php:94
+#: inc/theme-options/theme-options.php:243
+msgid "Jack-o-lantern"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:98
+#: inc/theme-options/theme-options.php:244
+msgid "Demon"
+msgstr "Cin"
+
+#: inc/theme-options/theme-options.php:102
+#: inc/theme-options/theme-options.php:245
+msgid "Skull"
+msgstr "Kəllə"
+
+#: inc/theme-options/theme-options.php:114
+msgid "Zombie"
+msgstr "Zombi"
+
+#: inc/theme-options/theme-options.php:82
+#: inc/theme-options/theme-options.php:240
+msgid "Frankie"
+msgstr "Frenki"
+
+#: inc/theme-options/theme-options.php:86
+#: inc/theme-options/theme-options.php:241
+msgid "Vampire"
+msgstr "Vampir"
+
+#: inc/theme-options/theme-options.php:37
+msgid "Monster Style"
+msgstr "Monstr Stili"
+
+#: inc/theme-options/theme-options.php:64
+#: inc/theme-options/theme-options.php:65
+#: inc/theme-options/theme-options.php:224
+msgid "Theme Options"
+msgstr "Mövzu parametrləri"
+
+#: inc/template-tags.php:133
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Tarix:<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> müəllif: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:139
+msgid "View all posts by %s"
+msgstr "%s tərəfindən yazılmış bütün yazılara bax"
+
+#: inc/template-tags.php:127
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Xüsusi</a>"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s tarixində, saat %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Şərhiniz yoxlama gözləyir."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dedi ki:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Geri bildiriş: "
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Yeni yazılar <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Əski yazılar"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Yazı naviqasiyaları"
+
+#: image.php:97
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Şərhlər və geri izləmələr indilik bağlıdır."
+
+#: image.php:95
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Geri izləmələr bağlıdır, amma <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">bir şərh</a> yaza bilərsiniz."
+
+#: image.php:93
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Şərhlər bağlıdır, amma geri izləmə qoya bilərsiniz: <a class=\"trackback-link\" href=\"%s\" title=\"Yazınızdan Geri İzləmə Bağlantısı\" rel=\"trackback\">Geri İzləmə Bağlantısı</a>."
+
+#: image.php:91
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Bir şərh yazın</a> və ya bir geri izləmə qoyun: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Geri İzləmə Ünvanı</a>. "
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Sonrakı &rarr;"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> tarixində <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> üzərində <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a> içində dərc edildi."
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Öncəki"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Mühtəviyyata keç"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Menyu"
+
+#: functions.php:73
+msgid "Sidebar"
+msgstr "Yan menyu"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Əsas menyu"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Mövzu: %1$s tərəfindən %2$s."
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "%s qürurla təqdim edər"
+
+#: footer.php:16
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Müasir Fərdi Yayın Platforması"
+
+#: content.php:30
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Oxumağa davam et <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:13
+msgid "1"
+msgstr "1"
+
+#: content.php:13
+msgid "%"
+msgstr "%"
+
+#: content.php:13
+msgid "0"
+msgstr "0"
+
+#: content-single.php:28 content-single.php:37 content.php:42 content.php:51
+msgid "%1$s"
+msgstr "%1$s"
+
+#: content-page.php:18 content-single.php:41 content.php:56 image.php:99
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Redaktə et"
+
+#: content-page.php:15 content-single.php:19 content.php:31 image.php:85
+msgid "Pages:"
+msgstr "Səhifələr:"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Şərh üçün bağlıdır."
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Yeni şərhlər &rarr;"
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Əski şərhlər"
+
+#: comments.php:37 comments.php:57
+msgid "Comment navigation"
+msgstr "Şərh naviqasiyası"
+
+#: comments.php:30
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; üçün bir cavab"
+msgstr[1] "&ldquo;%2$s&rdquo; üçün %1$s cavab"
+
+#: archive.php:64 sidebar.php:18
+msgid "Archives"
+msgstr "Arxivlər"
+
+#: archive.php:61
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: archive.php:58
+msgid "Quotes"
+msgstr "Sitatlar"
+
+#: archive.php:55
+msgid "Videos"
+msgstr "Videolar"
+
+#: archive.php:52
+msgid "Images"
+msgstr "Təsvirlər"
+
+#: archive.php:49
+msgid "Asides"
+msgstr "Kənarlar"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "İllik Arxivlər: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Aylıq Arxivlər: %s"
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Günlük Arxivlər: %s"
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Müəllifin arxivləri: %s"
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "%s Etiket Arxivləri: "
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Kateqoriya Arxivləri: %s"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Aylıq arxivlərə baxmağı yoxlayın. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Ən sıx istifadə edilən kateqoriyalar"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Burada heç bir şeyin tapılmadığı görünür. Bəlkə aşağıdakı bağlantılardan birini yoxlayasan və ya bir axtarış edəsən?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Bağışlayın! Bu səhifə tapılmır."

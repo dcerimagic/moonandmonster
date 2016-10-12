@@ -1,0 +1,166 @@
+
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Text elements */
+
+ul, ol {
+	margin: 0 2em 1.5em 0;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+blockquote {
+	padding: .5em 1.5em .5em 0;
+}
+
+blockquote:before {
+	float: right;
+	right: -10px;
+	left: auto;
+}
+
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+
+/* =Header
+----------------------------------------------- */
+
+#page:before {
+	left: 0;
+}
+
+#page:after {
+	left: auto;
+	margin-left: auto;
+}
+
+
+/* =MONSTER STUFF!
+----------------------------------------------- */
+
+.bones:after {
+	right: -50px;
+}
+
+.bones:before {
+	right: auto;
+	margin-right: auto;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	float: right;
+}
+
+.main-navigation ul ul {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+#main {
+	border-right: 4px solid rgb(165,207,66);
+	border-left: 4px solid rgb(165,207,66);
+}
+
+.entry-title {
+	float: right;
+}
+
+.cat-links a,
+.tag-links a,
+.edit-link a {
+	margin: 0 0 4px 2px;
+}
+
+.comments-link {
+	margin: 0 -51px 0 0;
+	right: 100%;
+	left: auto;
+}
+
+
+/* =Sidebar
+----------------------------------------------- */
+
+#secondary:before {
+	border-right: 1px solid #eee;
+	right: -1px;
+	left: auto;
+	border-left: none;
+}
+
+#secondary {
+	border-right: 1px solid #eee;
+	border-left: none;
+}
+
+#secondary:after {
+	right: -48px;
+	left: auto;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.site-content .nav-previous {
+	float: right;
+}
+
+.site-content .nav-next {
+	float: left;
+	text-align: left;
+}
+
+.next-image {
+	float: left;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.comment-author .avatar {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+ol.commentlist ul {
+	margin: 0 2em 0 0;
+}
+
+#reply-title small {
+	float: left;
+}
