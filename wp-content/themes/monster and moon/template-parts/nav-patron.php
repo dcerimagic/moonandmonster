@@ -7,7 +7,7 @@
     <div class="close">
         <span>x</span>
     </div>
-  <h1 class="site-title"><a href="<?php echo site_url(); ?>"><span class="tight">Moon &</span><br>Monster</a></h1>
+  <h1 class="site-title"><a href="<?php echo site_url(); ?>"><span class="tight">Moon &</span>Monster</a></h1>
   <ul class="navigation">
     <li><a href="<?php echo site_url(); ?>/comic/">Read the comic from beginning</a></li>
     <li class="nav-toggler"><span class="rotate-cw">&rsaquo;</span> Or skip to day <span class="rotate-cw">&rsaquo;</span>

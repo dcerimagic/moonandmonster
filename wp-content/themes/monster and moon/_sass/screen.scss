@@ -48,6 +48,10 @@ body {
     font-style: normal;
 }
 
+body.home {
+    background: white url(../images/frontground.png) repeat-y center top;
+}
+
 h1,
 h2 {
     text-transform: uppercase;
@@ -139,6 +143,22 @@ a {
 .full {
   @include outer-container();
   clear: both;
+    
+    &.fixed-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        
+        p {
+            margin: 0;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+        }
+    }
 }
 
 //layout
@@ -148,6 +168,7 @@ a {
 
 .page-container,
 .single-content {
+    @include clearfix();
     max-width: em(704);
     width: 100%;
     margin: 0 auto;
@@ -168,8 +189,9 @@ a {
 
 /* NAV */
 
-.site-title {
-    text-transform: uppercase;
+.site-title,
+.site-title-visible {
+    //text-transform: uppercase;
     font-weight: normal;
     font-size: $base-size*2.5;
     transform: scale(.85, 1.52);
@@ -248,15 +270,17 @@ small {
 body > nav {
     position: absolute;
     width: 100%;
-    top: 0;
+    margin: 0 auto;
     z-index: 31;
+    text-align: center;
+    top: 0;
     &.opened {
         background: white;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        position: absolute;
+        text-align: center;
     }
     .hamby {
         font-family: burst_my_bubbleregular;
@@ -308,6 +332,7 @@ body > nav {
   body.home {
     overflow: hidden;
     height: 100%;
+    background: white url(../images/frontground.png) repeat-y center top;
   }
   
   body.home > nav {

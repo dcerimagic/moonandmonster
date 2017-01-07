@@ -381,6 +381,9 @@ body {
   src: url("../fonts/burstmybubbleitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/burstmybubbleitalic-webfont.woff2") format("woff2"), url("../fonts/burstmybubbleitalic-webfont.woff") format("woff"), url("../fonts/burstmybubbleitalic-webfont.ttf") format("truetype"), url("../fonts/burstmybubbleitalic-webfont.svg#burst_my_bubbleitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
+body.home {
+  background: white url(../images/frontground.png) repeat-y center top; }
+
 h1,
 h2 {
   text-transform: uppercase;
@@ -460,6 +463,18 @@ a {
     clear: both;
     content: "";
     display: table; }
+  .full.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100; }
+    .full.fixed-bottom p {
+      margin: 0;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      -webkit-margin-start: 0;
+      -webkit-margin-end: 0; }
 
 .top-element {
   margin-top: 4em !important; }
@@ -469,6 +484,11 @@ a {
   max-width: 44em;
   width: 100%;
   margin: 0 auto; }
+  .page-container::after,
+  .single-content::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .home .page-container {
   max-width: 52.5em;
@@ -483,19 +503,22 @@ a {
   text-align: left; }
 
 /* NAV */
-.site-title {
-  text-transform: uppercase;
+.site-title,
+.site-title-visible {
   font-weight: normal;
   font-size: 3em;
   transform: scale(0.85, 1.52);
   line-height: .65;
   letter-spacing: 1px;
   margin-top: 1.25em; }
-  .site-title .tight {
+  .site-title .tight,
+  .site-title-visible .tight {
     letter-spacing: 4px; }
-  .site-title a {
+  .site-title a,
+  .site-title-visible a {
     color: #1c0f13; }
-    .site-title a:hover {
+    .site-title a:hover,
+    .site-title-visible a:hover {
       color: #998FC7; }
 
 ul {
@@ -547,15 +570,17 @@ small {
 body > nav {
   position: absolute;
   width: 100%;
-  top: 0;
-  z-index: 31; }
+  margin: 0 auto;
+  z-index: 31;
+  text-align: center;
+  top: 0; }
   body > nav.opened {
     background: white;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    position: absolute; }
+    text-align: center; }
   body > nav .hamby {
     font-family: burst_my_bubbleregular;
     position: relative;
@@ -595,7 +620,8 @@ body > nav {
 @media screen and (max-width: 900px) {
   body.home {
     overflow: hidden;
-    height: 100%; }
+    height: 100%;
+    background: white url(../images/frontground.png) repeat-y center top; }
 
   body.home > nav {
     position: fixed;
