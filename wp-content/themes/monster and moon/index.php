@@ -24,7 +24,7 @@ get_header(); ?>
       <figure>
         <?php if ( has_post_thumbnail() ) { the_post_thumbnail();} ?>
         </figure>
-      <?php the_title(); ?>
+      <?php the_content(); ?>
     </a>
     <?php endwhile; ?>
   </div>

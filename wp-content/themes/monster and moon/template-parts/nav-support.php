@@ -30,7 +30,7 @@
     <li><a href="#">Get free stuff<br>Buy stuff<br>I don't know</a></li>
     <li><a href="#">Get in touch</a></li>
     <li><a href="#">Credits</a></li>-->
-    <li><p class="txt-center"><small><sup>&copy;</sup>2013-2016, Denis <span class="c">C</span>. all rights reserved. <a href="<?php echo site_url(); ?>/credits/">Credits</a> &bull; <a href="mailto:denis@moonandmonster.com">Contact me</a></small></p></li>
+    <li><p class="txt-center"><small><sup>&copy;</sup>2013-2016, Denis <span class="c">C</span>. all rights reserved. <a href="<?php echo site_url(); ?>/credits/">Credits</a> &bull; <a href="mailto:cherrorist@gmail.com">Contact me</a></small></p></li>
   </ul>
   
 </nav>

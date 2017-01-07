@@ -75,7 +75,7 @@
   <div class="panel-half">
     <div class="panel-content">
       <p>Which is all boring <br>and they should follow me: <br> 
-       <a class="twitter-follow-button" href="https://twitter.com/Thurst4Truth" data-size="large">Follow Thurston &lt;- do it!</a><br>I have more followers,<br>anyway. Because <br>I'm. not. boring.
+       <a class="twitter-follow-button" href="https://twitter.com/Thurst4Truth" data-size="large">Follow Thurston &lt;- do it!</a><br>I should have more followers,<br>anyway. Because <br>I'm. not. boring.
         <span class="speech-bubble bubble-3"></span>
       </p>
       <p>Shut up, Thurston, or I'll <br>fucking erase you, I swear <br>to God I will!

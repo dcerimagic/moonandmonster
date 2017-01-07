@@ -12,6 +12,7 @@
 <script type="text/javascript" src="<?php echo get_bloginfo('template_directory');?>/js/swiper.min.js"></script>
 <script type="text/javascript" src="<?php echo get_bloginfo('template_directory');?>/js/scripts.js"></script> 
 <meta name="p:domain_verify" content="e57dcc4760f1c3440fd814333c617edb"/>
+<meta name="comiccharts-site-verification" content="Re@lown3r" />
 <?php wp_head(); ?>
 </head>
 
