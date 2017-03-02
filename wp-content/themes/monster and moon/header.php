@@ -17,6 +17,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php include_once("analyticstracking.php") ?>
 	<?php
 		if ( is_page_template('page-patron') ) { 
      		get_template_part( 'template-parts/nav', 'patron' ); 
@@ -24,4 +25,3 @@
      		get_template_part( 'template-parts/nav', 'support' ); 		
 		};
 	?>
-<?php include_once("analyticstracking.php") ?>

@@ -48,7 +48,23 @@ body {
     font-style: normal;
 }
 
-body.home {
+//grid
+.span-6 {
+    @include span-columns(6);
+    
+    &:nth-child(2n) {
+        @include omega();
+    }
+}
+.span-4 {
+    @include span-columns(4);
+    
+    &:nth-child(3n) {
+        @include omega();
+    }
+}
+
+body.home:not(.meta-home) {
     background: white url(../images/frontground.png) repeat-y center top;
 }
 
@@ -65,6 +81,15 @@ h2 {
         }
     }
 }
+  
+.blog-layout h2 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
 
 h1.site-title { font-family: burst_my_bubbleregular; }
 
@@ -72,23 +97,48 @@ li,
 p {
     font-size: $base-size;
     letter-spacing: -.5px;
+    margin: 0;
 }
 
 p {
     text-align: left;
+  
+  .home & {
+    text-align: center;
+    font-size: 1em;
+  }
 }
 
 a {
     text-decoration: none;
     color: $link;
     transition: all $base-time;
+  
     &:hover {
         color: $blue;
         opacity: 1;
     }
+  
+  &.underline {
+    background: url(../images/underline.png) no-repeat center bottom;
+    padding-bottom: .5em;
+    display: inline-block;
+  }
+  
     p & {
         font-weight: 700;
     }
+  
+  .home:not(.meta-home) & {
+    font-size: 1.4em;
+    font-family: burst_my_bubbleregular;
+    font-weight: 700;
+    letter-spacing: .025em;
+  }
+  
+  .home .nav-toggler & {
+    font-size: .65em;
+  }
 }
 
 .c {
@@ -240,16 +290,59 @@ ul {
         display: inline-block;
         margin-bottom: 1em;
         width: 100%;
+      
+      &.character {
+        position: relative;
+        min-height: 126px;
+        
+        &.leia:after {
+          content: url(../images/bleia.png);
+          position: absolute;
+          right: -100px;
+          top: -30px;
+        }
+        
+        &.thurston:after {
+          content: url(../images/bthurston.png);
+          position: absolute;
+          left: -100px;
+          top: -30px;
+        }
+        
+        &.author:after {
+          content: url(../images/bme.png);
+          position: absolute;
+          right: -100px;
+          top: -30px;
+        }
+        
+        &.maisie:after {
+          content: url(../images/bmaisie.png);
+          position: absolute;
+          left: -100px;
+          top: -30px; 
+        }
+      }
     }
     .nav-toggler {
         transition: all $base-time;
         height: 1em;
         overflow: hidden;
+        margin: 0 auto;
+        max-width: 310px;
+      
         &.is-opened {
             height: 4em;
             transition: all $base-time;
         }
     }
+}
+
+.home .nav-toggler ul li {
+  float: left;
+  width: initial;
+  margin-right: 12px;
+  margin-bottom: 0;
 }
 
 small {
@@ -265,6 +358,10 @@ small {
     li p & {
         font-size: .5em;
     }
+}
+
+body.home > nav {
+  display: none;
 }
 
 body > nav {
@@ -462,6 +559,10 @@ body > nav {
 
 .permalink {
     float: left;
+  
+  p + p {
+    display: none;
+  }
 }
 
 a.study {
@@ -490,7 +591,7 @@ a.study {
 .panel-half {
   @include span-columns(6);
   @include omega();
-  margin-bottom: -4em;
+  margin-bottom: -3.15em;
   position: relative;
   height: 380px;
   background: url(../images/background-hp.png) no-repeat center center;

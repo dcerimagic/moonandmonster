@@ -33,6 +33,6 @@
         <a class="swiper-button-next" title="NEXT PAGE">&gt;</a>
         <a class="swiper-button-prev" title="PREVIOUS PAGE">&lt;</a>
         <a class="swiper-button-prev-page" href="<?php echo site_url(); ?>/comic-day-three/" title="PREVIOUS DAY">&lt;</a>
-        <a class="swiper-button-next-page" href="<?php echo site_url(); ?>/comic-day-five/" title="NEXT DAY">&gt;</a>       
+        <!--<a class="swiper-button-next-page" href="<?php echo site_url(); ?>/comic-day-five/" title="NEXT DAY">&gt;</a>-->       
     </div>
 <?php get_footer(); ?>

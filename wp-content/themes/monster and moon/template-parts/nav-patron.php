@@ -18,6 +18,7 @@
             <li><a href="<?php echo site_url(); ?>/comic-day-four/">Day Four</a></li>
             <li><a href="<?php echo site_url(); ?>/comic-day-five/">Day Five</a></li>
             <li><a href="<?php echo site_url(); ?>/comic-day-six/">Day Six</a></li>
+            <li><a href="<?php echo site_url(); ?>/comic-day-seven/">Day Seven</a></li>
         </ul>
     </li>
     <li><a href="https://www.patreon.com/moonandmonster" target="_blank">please consider Supporting <br>Moon and monster on Patreon. <br><small>You'll be helping Monster get back with the Moon, helping Junior through college and keeping Leia and Thurston's marriage together. The only downside to this is you'll be supporting Maisie's drinking habit.</small></a></li>
