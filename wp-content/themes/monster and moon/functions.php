@@ -16,6 +16,8 @@ function add_body_class( $classes ) {
         $classes[] = 'comic';
     } elseif ( 'page-home.php' == $template['basename'] ) {
     	$classes[] = 'home';
+    } elseif ( 'page-meta-home.php' == $template['basename'] ) {
+    	$classes[] = 'home meta-home';
     } else {
     	$classes[] = 'generic';
     }

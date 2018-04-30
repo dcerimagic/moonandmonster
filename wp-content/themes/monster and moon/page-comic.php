@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="daynav-container">
-        <a class="swiper-button-next-page" href="<?php echo site_url(); ?>/comic-day-two/" title="NEXT DAY">&gt;</a>
+        <a class="swiper-button-next-page" href="<?php echo site_url(); ?>/pcomic-day-two/" title="NEXT DAY">&gt;</a>
         <a class="swiper-button-next" title="NEXT PAGE">&gt;</a>
         <a class="swiper-button-prev" title="PREVIOUS PAGE">&lt;</a>       
     </div>

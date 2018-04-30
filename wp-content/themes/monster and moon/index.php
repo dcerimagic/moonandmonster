@@ -17,19 +17,23 @@ get_header(); ?>
 
 
 
-<section class="page-container blog-layout">
-  <div class="preview-list">
-    <?php while ( have_posts() ) : the_post(); ?>
-    <a class="permalink" href="<?php the_permalink(); ?>">
-      <figure>
-        <?php if ( has_post_thumbnail() ) { the_post_thumbnail();} ?>
-        </figure>
-      <?php the_title(); ?>
-    </a>
-    <?php endwhile; ?>
-  </div>
-</section>
+    <section class="page-container blog-layout">
+        <div class="preview-list">
+            <?php while ( have_posts() ) : the_post(); ?>
+               <div class="span-4">
+                <a class="permalink" href="<?php the_permalink(); ?>">
+                        <?php the_content(); ?>
+                    <h2><?php the_title(); ?></h2>
+                    <!--<figure>
+                        <?php if ( has_post_thumbnail() ) { the_post_thumbnail();} ?>
+                    </figure>-->
+                </a>
+                   
+               </div>
+                <?php endwhile; ?>
+        </div>
+    </section>
 
 
-<?php
+    <?php
 get_footer();

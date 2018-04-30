@@ -39,11 +39,11 @@ get_header(); ?>
       while (have_posts()) : the_post(); ?>
 
       <a class="study" href="<?php the_permalink(); ?>">
+        <?php the_title(); ?>
 
         <figure class="post__figure">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail();} ?>
         </figure>
-        <?php the_title(); ?>
       </a>
 
     <?php endwhile; ?>

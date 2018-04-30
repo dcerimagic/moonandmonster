@@ -7,7 +7,7 @@
     <div class="close">
         <span>x</span>
     </div>
-  <h1 class="site-title"><a href="<?php echo site_url(); ?>"><span class="tight">Moon &</span><br>Monster</a></h1>
+  <h1 class="site-title"><a href="<?php echo site_url(); ?>"><span class="tight">Moon &</span>Monster</a></h1>
   <ul class="navigation">
     <li><a href="<?php echo site_url(); ?>/comic/">Read the comic from beginning</a></li>
     <li class="nav-toggler"><span class="rotate-cw">&rsaquo;</span> Or skip to day <span class="rotate-cw">&rsaquo;</span>
@@ -18,6 +18,7 @@
             <li><a href="<?php echo site_url(); ?>/comic-day-four/">Day Four</a></li>
             <li><a href="<?php echo site_url(); ?>/comic-day-five/">Day Five</a></li>
             <li><a href="<?php echo site_url(); ?>/comic-day-six/">Day Six</a></li>
+            <li><a href="<?php echo site_url(); ?>/comic-day-seven/">Day Seven</a></li>
         </ul>
     </li>
     <li><a href="https://www.patreon.com/moonandmonster" target="_blank">please consider Supporting <br>Moon and monster on Patreon. <br><small>You'll be helping Monster get back with the Moon, helping Junior through college and keeping Leia and Thurston's marriage together. The only downside to this is you'll be supporting Maisie's drinking habit.</small></a></li>

@@ -48,6 +48,26 @@ body {
     font-style: normal;
 }
 
+//grid
+.span-6 {
+    @include span-columns(6);
+    
+    &:nth-child(2n) {
+        @include omega();
+    }
+}
+.span-4 {
+    @include span-columns(4);
+    
+    &:nth-child(3n) {
+        @include omega();
+    }
+}
+
+body.home:not(.meta-home) {
+    background: white url(../images/frontground.png) repeat-y center top;
+}
+
 h1,
 h2 {
     text-transform: uppercase;
@@ -61,6 +81,15 @@ h2 {
         }
     }
 }
+  
+.blog-layout h2 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
 
 h1.site-title { font-family: burst_my_bubbleregular; }
 
@@ -68,23 +97,48 @@ li,
 p {
     font-size: $base-size;
     letter-spacing: -.5px;
+    margin: 0;
 }
 
 p {
     text-align: left;
+  
+  .home & {
+    text-align: center;
+    font-size: 1em;
+  }
 }
 
 a {
     text-decoration: none;
     color: $link;
     transition: all $base-time;
+  
     &:hover {
         color: $blue;
         opacity: 1;
     }
+  
+  &.underline {
+    background: url(../images/underline.png) no-repeat center bottom;
+    padding-bottom: .5em;
+    display: inline-block;
+  }
+  
     p & {
         font-weight: 700;
     }
+  
+  .home:not(.meta-home) & {
+    font-size: 1.4em;
+    font-family: burst_my_bubbleregular;
+    font-weight: 700;
+    letter-spacing: .025em;
+  }
+  
+  .home .nav-toggler & {
+    font-size: .65em;
+  }
 }
 
 .c {
@@ -139,6 +193,22 @@ a {
 .full {
   @include outer-container();
   clear: both;
+    
+    &.fixed-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        
+        p {
+            margin: 0;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+        }
+    }
 }
 
 //layout
@@ -148,6 +218,7 @@ a {
 
 .page-container,
 .single-content {
+    @include clearfix();
     max-width: em(704);
     width: 100%;
     margin: 0 auto;
@@ -168,8 +239,9 @@ a {
 
 /* NAV */
 
-.site-title {
-    text-transform: uppercase;
+.site-title,
+.site-title-visible {
+    //text-transform: uppercase;
     font-weight: normal;
     font-size: $base-size*2.5;
     transform: scale(.85, 1.52);
@@ -218,16 +290,59 @@ ul {
         display: inline-block;
         margin-bottom: 1em;
         width: 100%;
+      
+      &.character {
+        position: relative;
+        min-height: 126px;
+        
+        &.leia:after {
+          content: url(../images/bleia.png);
+          position: absolute;
+          right: -100px;
+          top: -30px;
+        }
+        
+        &.thurston:after {
+          content: url(../images/bthurston.png);
+          position: absolute;
+          left: -100px;
+          top: -30px;
+        }
+        
+        &.author:after {
+          content: url(../images/bme.png);
+          position: absolute;
+          right: -100px;
+          top: -30px;
+        }
+        
+        &.maisie:after {
+          content: url(../images/bmaisie.png);
+          position: absolute;
+          left: -100px;
+          top: -30px; 
+        }
+      }
     }
     .nav-toggler {
         transition: all $base-time;
         height: 1em;
         overflow: hidden;
+        margin: 0 auto;
+        max-width: 310px;
+      
         &.is-opened {
             height: 4em;
             transition: all $base-time;
         }
     }
+}
+
+.home .nav-toggler ul li {
+  float: left;
+  width: initial;
+  margin-right: 12px;
+  margin-bottom: 0;
 }
 
 small {
@@ -245,18 +360,24 @@ small {
     }
 }
 
+body.home > nav {
+  display: none;
+}
+
 body > nav {
     position: absolute;
     width: 100%;
-    top: 0;
+    margin: 0 auto;
     z-index: 31;
+    text-align: center;
+    top: 0;
     &.opened {
         background: white;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        position: absolute;
+        text-align: center;
     }
     .hamby {
         font-family: burst_my_bubbleregular;
@@ -308,6 +429,7 @@ body > nav {
   body.home {
     overflow: hidden;
     height: 100%;
+    background: white url(../images/frontground.png) repeat-y center top;
   }
   
   body.home > nav {
@@ -437,6 +559,10 @@ body > nav {
 
 .permalink {
     float: left;
+  
+  p + p {
+    display: none;
+  }
 }
 
 a.study {
@@ -465,7 +591,7 @@ a.study {
 .panel-half {
   @include span-columns(6);
   @include omega();
-  margin-bottom: -4em;
+  margin-bottom: -3.15em;
   position: relative;
   height: 380px;
   background: url(../images/background-hp.png) no-repeat center center;

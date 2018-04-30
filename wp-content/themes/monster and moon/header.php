@@ -12,10 +12,12 @@
 <script type="text/javascript" src="<?php echo get_bloginfo('template_directory');?>/js/swiper.min.js"></script>
 <script type="text/javascript" src="<?php echo get_bloginfo('template_directory');?>/js/scripts.js"></script> 
 <meta name="p:domain_verify" content="e57dcc4760f1c3440fd814333c617edb"/>
+<meta name="comiccharts-site-verification" content="Re@lown3r" />
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<?php include_once("analyticstracking.php") ?>
 	<?php
 		if ( is_page_template('page-patron') ) { 
      		get_template_part( 'template-parts/nav', 'patron' ); 
@@ -23,4 +25,3 @@
      		get_template_part( 'template-parts/nav', 'support' ); 		
 		};
 	?>
-<?php include_once("analyticstracking.php") ?>
