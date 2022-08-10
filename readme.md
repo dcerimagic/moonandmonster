@@ -25,12 +25,14 @@ Another [example commit with an error](https://github.com/smtp2go/smtp2go/commit
     3. add the base page template file, e.g. [`vue-app\src\views\reports\archives\Archives.vue`](..\src\views\reports\archives\Archives.vue)
 2. Add path to [router](..\src\router\index.js) which will render the added component  eg. `const ReportsArchivesAsync = () => import('@/views/reports/archives');`
 3. Also in the router create a named path object inside the routes array e.g  
-```{
+```
+{
     path: 'archive',
     name: 'ReportsArchives',
     component: ReportsArchivesAsync,
     meta: {
       title: 'Archives',
     },
-},```
+},
+```
 
