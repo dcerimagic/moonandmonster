@@ -35,4 +35,14 @@ Another [example commit with an error](https://github.com/smtp2go/smtp2go/commit
     },
 },
 ```
-
+4. navigate to [`vue-app\src\api\methods.js`](..\src\api\methods.js),  duplicate and adjust an export async function in order to initiate a page with the provided data, e.g.
+```
+export async function getReportsArchivesInitialData() {
+    return camelCaseKeys((await client.get(INITIAL_DATA.endpoints.archives, {
+      params: {
+        action: 'page-init',
+      },
+    })).data.results);
+}
+```
+5.Build the app (more details [in this doc](Development.md)), commit changes upstream, test.
