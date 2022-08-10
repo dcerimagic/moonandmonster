@@ -27,8 +27,8 @@ Another [example commit with an error](https://github.com/smtp2go/smtp2go/commit
 
 1. Add page component into [`src/views`](../src/views/) folder:
     1. create a folder corresponding to the navigation group and page name in the `views` folder e.g. [`reports/archives`](../src/views/reports/archives/)
-    2. inside it create index.js containing the line 
-    `export { default } from './PageName.vue';`
+    2. inside it create index.js containing the line   
+    `export { default } from './PageName.vue';`  
     e.g. `export { default } from './Archives.vue';`
     3. add the base page template file, e.g. [`vue-app\src\views\reports\archives\Archives.vue`](..\src\views\reports\archives\Archives.vue)
 2. Add path to router (vue-app\src\router\index.js) which will render the added component eg. `const ReportsArchivesAsync = () => import('@/views/reports/archives');`
